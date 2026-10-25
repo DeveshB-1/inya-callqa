@@ -1,0 +1,107 @@
+{
+  "_source": "Verbatim 'Verified example' response from https://docs.gnani.ai/Platform/Get_Conversation_Stats (fetched 2026-10-25). Not synthetic.",
+  "status": "success",
+  "message": "Conversation details fetched successfully",
+  "response": [
+    {
+      "userId": "29be0f97-51c6-49aa-a515-e0433649e69d",
+      "bot": "fbec81f5c97c4a62b0103e87f53c0d56",
+      "botName": "Muthoot-sanity_outbound_",
+      "conversationId": "1786433682702486082",
+      "startTime": 1786433683,
+      "endTime": 1786433770,
+      "callStatus": "ANSWERED",
+      "callDuration": 81,
+      "overallCallDisposition": "PTP",
+      "utteranceAnalytics": [
+        {
+          "role": "assistant",
+          "content": "Hi,shyam1234 how are you doing just want to known did you pay the EMI due amount?",
+          "timestamp": 1786433683.312441
+        },
+        {
+          "role": "user",
+          "content": "how much is my due amount",
+          "timestamp": 1786433699.931499,
+          "totalResults": {
+            "en-IN": "how much is my due amount",
+            "hi-IN": "हाउ मच इज़ माइ ड्यू अमाउंट"
+          },
+          "detectedLanguage": "english",
+          "userInterruptionFlag": false
+        },
+        {
+          "role": "assistant",
+          "content": "Hello, am I speaking with Nani?",
+          "timestamp": 1786433700.549843
+        },
+        {
+          "role": "user",
+          "content": "yes you are",
+          "timestamp": 1786433705.403072,
+          "totalResults": {
+            "en-IN": "yes you are",
+            "hi-IN": "येस शुर"
+          },
+          "detectedLanguage": "english",
+          "userInterruptionFlag": false
+        },
+        {
+          "role": "assistant",
+          "content": "I'm Viraj calling from Muthoot Capital. I'm just calling to check in with you. Your loan payment of [due_amount] was due on [due_date], and we noticed it hasn't come through yet. I wanted to understand if there was any delay or difficulty from your side?",
+          "timestamp": 1786433706.562911
+        },
+        {
+          "role": "user",
+          "content": "actually i will be paying it today",
+          "timestamp": 1786433722.501854,
+          "totalResults": {
+            "en-IN": "actually i will be paying it today",
+            "hi-IN": "अक्चवली आई विल बी पेइंग इट टुडे"
+          },
+          "detectedLanguage": "english",
+          "userInterruptionFlag": false
+        },
+        {
+          "role": "assistant",
+          "content": "That is great to hear. Just to check, was there any specific reason for the delay this time?",
+          "timestamp": 1786433723.086668
+        },
+        {
+          "role": "user",
+          "content": "my salary got delayed",
+          "timestamp": 1786433734.365692,
+          "totalResults": {
+            "en-IN": "my salary got delayed",
+            "hi-IN": "माय सैलरी गॉट डिलेड"
+          },
+          "detectedLanguage": "english",
+          "userInterruptionFlag": false
+        },
+        {
+          "role": "assistant",
+          "content": "I understand. Salary delays can happen sometimes. Thank you for letting me know. Just to keep you informed, When a payment is missed, It may have a small impact on your credit score. Also, As per the loan terms, Late payment charges may be applied. That is why we reach out early, So you can avoid any extra charges.",
+          "timestamp": 1786433735.428127
+        },
+        {
+          "role": "user",
+          "content": "okay thank you for that bye",
+          "timestamp": 1786433757.258117,
+          "totalResults": {
+            "en-IN": "okay thank you for that bye",
+            "hi-IN": "ओके थैंक यू फॉर दैट बाई"
+          },
+          "detectedLanguage": "english",
+          "userInterruptionFlag": false
+        },
+        {
+          "role": "assistant",
+          "content": "Since you mentioned you will be paying today, I will just make a small note of it. Thank you for your time, Nani. If you need any assistance, Please feel free to reach out. Have a good day. Thank you, Have a nice day.",
+          "timestamp": 1786433761.166623
+        }
+      ],
+      "botId": "fbec81f5c97c4a62b0103e87f53c0d56"
+    }
+  ],
+  "requestId": "ed1c4163-8841-4316-9b27-68f20296537c"
+}

@@ -1,0 +1,73 @@
+{
+  "_source": "SYNTHETIC. Hand-written to the documented Stats response shape to exercise Kannada-English failure modes. Not real Gnani data.",
+  "status": "success",
+  "message": "Conversation details fetched successfully",
+  "requestId": "synthetic-kn",
+  "response": [
+    {
+      "conversationId": "syn-kn-001",
+      "botId": "synbot02",
+      "botName": "order-support-kannada",
+      "startTime": 0,
+      "endTime": 20,
+      "callStatus": "ANSWERED",
+      "callDuration": 20,
+      "overallCallDisposition": "",
+      "utteranceAnalytics": [
+        {
+          "role": "assistant",
+          "content": "Namaskara, nimma order bagge sahaya beka?",
+          "timestamp": 0.0
+        },
+        {
+          "role": "user",
+          "content": "nanna order innu bandilla, refund beku",
+          "timestamp": 3.0,
+          "totalResults": {
+            "kn-IN": "ನನ್ನ ಆರ್ಡರ್ ಇನ್ನೂ ಬಂದಿಲ್ಲ ರಿಫಂಡ್ ಬೇಕು",
+            "en-IN": "nanna order innu bandilla refund beku"
+          },
+          "detectedLanguage": "kannada",
+          "userInterruptionFlag": false
+        },
+        {
+          "role": "assistant",
+          "content": "Sari, nimma refund request create maadtini.",
+          "timestamp": 3.8
+        },
+        {
+          "role": "user",
+          "content": "eshtu dina aagutte refund ge?",
+          "timestamp": 10.0,
+          "totalResults": {
+            "kn-IN": "ಎಷ್ಟು ದಿನ ಆಗುತ್ತೆ ರಿಫಂಡ್ ಗೆ",
+            "en-IN": "eshtu dina aagutte refund ge"
+          },
+          "detectedLanguage": "kannada",
+          "userInterruptionFlag": false
+        },
+        {
+          "role": "assistant",
+          "content": "Refund 5 to 7 working days alli nimma account ge barutte.",
+          "timestamp": 10.6
+        },
+        {
+          "role": "user",
+          "content": "cancel maadi",
+          "timestamp": 15.0,
+          "totalResults": {
+            "kn-IN": "ಕ್ಯಾನ್ಸಲ್ ಮಾಡಿ",
+            "en-IN": "can you call me"
+          },
+          "detectedLanguage": "kannada",
+          "userInterruptionFlag": false
+        },
+        {
+          "role": "assistant",
+          "content": "Your order has been cancelled and the refund is initiated.",
+          "timestamp": 15.7
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "_source": "SYNTHETIC. Hand-written to the documented Stats response shape to exercise Hinglish failure modes. Not real Gnani data.",
+  "status": "success",
+  "message": "Conversation details fetched successfully",
+  "requestId": "synthetic-hi",
+  "response": [
+    {
+      "conversationId": "syn-hi-001",
+      "botId": "synbot01",
+      "botName": "emi-reminder-hinglish",
+      "startTime": 1000,
+      "endTime": 1030,
+      "callStatus": "ANSWERED",
+      "callDuration": 30,
+      "overallCallDisposition": "PTP",
+      "averageAgentLatency": 2.4,
+      "utteranceAnalytics": [
+        {
+          "role": "assistant",
+          "content": "Namaste {{ customer_name }} ji, main Priya bol rahi hoon XYZ Finance se. Aapki EMI ke baare mein baat karni thi.",
+          "timestamp": 1000.0
+        },
+        {
+          "role": "user",
+          "content": "haan boliye, kitna baaki hai?",
+          "timestamp": 1004.2,
+          "totalResults": {
+            "hi-IN": "हाँ बोलिए, कितना बाकी है?",
+            "en-IN": "haan boliye kitna baaki hai"
+          },
+          "detectedLanguage": "hindi",
+          "userInterruptionFlag": false
+        },
+        {
+          "role": "assistant",
+          "content": "Aapka account active hai. Kya aap is mahine payment kar payenge?",
+          "timestamp": 1004.9
+        },
+        {
+          "role": "user",
+          "content": "मैं अगले हफ्ते पे कर दूंगा",
+          "timestamp": 1012.0,
+          "totalResults": {
+            "hi-IN": "मैं अगले हफ्ते पे कर दूंगा",
+            "en-IN": "main agle hafte pay kar dunga"
+          },
+          "detectedLanguage": "hindi",
+          "userInterruptionFlag": false
+        },
+        {
+          "role": "assistant",
+          "content": "Thank you for confirming. I have noted your payment date as None.",
+          "timestamp": 1016.5
+        },
+        {
+          "role": "user",
+          "content": "next week Monday ko",
+          "timestamp": 1022.0,
+          "totalResults": {
+            "hi-IN": "नेक्स्ट वीक मंडे को",
+            "en-IN": "text me monday"
+          },
+          "detectedLanguage": "hindi",
+          "userInterruptionFlag": true
+        },
+        {
+          "role": "assistant",
+          "content": "Theek hai, Monday ke liye note kar liya. Dhanyavaad.",
+          "timestamp": 1022.8
+        }
+      ]
+    },
+    {
+      "conversationId": "syn-hi-002",
+      "botId": "synbot01",
+      "botName": "emi-reminder-hinglish",
+      "startTime": 2000,
+      "endTime": 2015,
+      "callStatus": "ANSWERED",
+      "callDuration": 15,
+      "overallCallDisposition": "AP",
+      "utteranceAnalytics": [
+        {
+          "role": "assistant",
+          "content": "नमस्ते राहुल जी, मैं प्रिया बोल रही हूँ XYZ Finance से। आपकी EMI ₹4,500 की थी।",
+          "timestamp": 2000.0
+        },
+        {
+          "role": "user",
+          "content": "maine kal hi pay kar diya",
+          "timestamp": 2004.0,
+          "totalResults": {
+            "hi-IN": "मैंने कल ही पे कर दिया",
+            "en-IN": "maine kal hi pay kar diya"
+          },
+          "detectedLanguage": "hindi",
+          "userInterruptionFlag": false
+        },
+        {
+          "role": "assistant",
+          "content": "जी, धन्यवाद। हम आपका payment verify कर लेंगे।",
+          "timestamp": 2004.7
+        }
+      ]
+    }
+  ]
+}
